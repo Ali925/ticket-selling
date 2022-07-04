@@ -1,0 +1,12 @@
+{
+    "verbose": false,
+    "ignore": [
+        ".git",
+        "node_modules/**/node_modules"
+    ],
+    "watch": [
+        "app/**/*.ts"
+    ],
+    "ext": "ts",
+    "exec": "node --inspect -r ts-node/register -r dotenv-safe/config ./app/bin/www.ts"
+}
